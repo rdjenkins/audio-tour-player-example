@@ -4,8 +4,7 @@ An example using the audio-tour-player package [![npm version](https://img.shiel
 
 ## How to build
 
-Clone this example repository
-
-Install 'npm install'
-
-Run 'npm run dev'
+```
+npm install
+npm run dev
+```

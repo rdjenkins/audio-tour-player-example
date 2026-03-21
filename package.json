@@ -12,6 +12,6 @@
     "vite": "^8.0.0"
   },
   "dependencies": {
-    "audio-tour-player": "^1.0.4"
+    "audio-tour-player": "^1.0.6"
   }
 }

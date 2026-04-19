@@ -4,9 +4,7 @@ import 'audio-tour-player';
 document.addEventListener('DOMContentLoaded', () => {
   const player = document.querySelector('audio-tour-player');
 
-  if (player) {
-    // Enable the offline feature
-    player.enableOffline();
-    console.log('Audio Player initialized and Offline Mode enabled.');
+  if (player.attributes.src) {
+    console.log('Audio Player present and src attribute is set.');
   }
 });
